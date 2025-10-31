@@ -1,0 +1,34 @@
+{
+  "personal": {
+      "name": "Bruno Leonardo",
+      "email": "bruno.silva@email.com",
+      "phone": "19 99999 9999",
+      "consultancyType": "Individual",
+      "personType": "cpf",
+      "document": "82944215027",
+      "discoveryChannels": [
+        "Instagram",
+        "LinkedIn",
+        "Udemy",
+        "YouTube",
+        "Indicação de Amigo"
+      ],
+      "file": "./cypress/fixtures/1.pdf",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "techs": ["Cypress", "Selenium", "Robot Framework", "Playwright"],
+      "terms": true
+    },
+    "company": {
+      "name": "Bruno Leonardo",
+      "email": "bruno.silva@email.com",
+      "phone": "19 99999 9999",
+      "consultancyType": "In Company",
+      "personType": "cnpj",
+      "document": "85677748000186",
+      "discoveryChannels": ["Instagram", "LinkedIn"],
+      "file": "./cypress/fixtures/1.pdf",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "techs": ["Cypress"],
+      "terms": true
+    }
+}
