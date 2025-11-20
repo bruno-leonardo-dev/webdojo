@@ -60,3 +60,10 @@ Cypress.Commands.add("login", (ui = false) => {
     });
   }
 });
+
+Cypress.Commands.add('goToSignup', () => {
+  cy.start()
+  cy.get('a[href="/register"]').click()
+  cy.contains('h2', 'Crie sua conta')
+    .should('be.visible')
+})
